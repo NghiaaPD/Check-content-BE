@@ -1,5 +1,6 @@
 fastapi~=0.111.0
-python-dotenv
+python-dotenv~=1.0.1
 google-generativeai
-torch
-transformers
+torch~=2.3.0
+transformers~=4.41.1
+ipython~=8.24.0

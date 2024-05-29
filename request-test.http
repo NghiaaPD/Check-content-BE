@@ -9,3 +9,19 @@ accept: application/json
 {
 "message":"Thời kì hoàng kim cảu trung quốc"
 }
+
+### Tiny-llama
+POST http://127.0.0.1:8000/TinyLlama/check
+accept: application/json
+
+{
+"message":"Thời kì hoàng kim cảu trung quốc"
+}
+
+### phi-2
+POST http://127.0.0.1:8000/Phi2/check
+accept: application/json
+
+{
+"message":"Nhà vô địch world cup 2020"
+}
