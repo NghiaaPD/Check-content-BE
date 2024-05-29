@@ -1,0 +1,11 @@
+### Test
+GET http://127.0.0.1:8000
+accept: application/json
+
+### Gemini
+POST http://127.0.0.1:8000/Gemini/check
+accept: application/json
+
+{
+"message":"Thời kì hoàng kim cảu trung quốc"
+}
