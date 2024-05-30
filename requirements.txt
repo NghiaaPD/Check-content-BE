@@ -4,3 +4,5 @@ google-generativeai
 torch~=2.3.0
 transformers~=4.41.1
 ipython~=8.24.0
+requests~=2.11.1
+Pyrebase~=3.0.27
