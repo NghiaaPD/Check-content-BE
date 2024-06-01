@@ -7,21 +7,22 @@ POST http://127.0.0.1:8000/Gemini/check
 accept: application/json
 
 {
-"message":"Thời kì hoàng kim cảu trung quốc"
+"question":"Stuart is an international student not used to writing in English. He has a 1,000 word essay due in a week. He knows that while his ideas are good, his structure and grasp of academic language are pretty bad. He asks his friend Liam, a native English speaker, to check his essay for him and suggest how he can improve it.When Liam gives him the essay back, Stuart is amazed. Liam has nicely re-written whole paragraphs of Stuart's ideas and obviously put a lot of effort into making it sound academic.However, Stuart is a little worried because he can barely recognize the essay - he even had to translate a few words!What kind of academic misconduct would Stuart be committing if he handed it in?Refer to lesson 1.4a.Check one option.(a). Cheating(b). Plagiarism(c). Facilitation of academic misconduct(d). Fabrication of data(e). Falsification of dataIt isn't academic misconduct because Stuart wrote the original.",
+"answer":"d"
 }
 
-### Tiny-llama
-POST http://127.0.0.1:8000/TinyLlama/check
-accept: application/json
-
-{
-"message":"Thời kì hoàng kim cảu trung quốc"
-}
-
-### phi-2
-POST http://127.0.0.1:8000/Phi2/check
-accept: application/json
-
-{
-"message":"Nhà vô địch world cup 2020"
-}
+#### Tiny-llama
+#POST http://127.0.0.1:8000/TinyLlama/check
+#accept: application/json
+#
+#{
+#"message":"Thời kì hoàng kim cảu trung quốc"
+#}
+#
+#### phi-2
+#POST http://127.0.0.1:8000/Phi2/check
+#accept: application/json
+#
+#{
+#"message":"Nhà vô địch world cup 2020"
+#}

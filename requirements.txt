@@ -1,8 +1,9 @@
 fastapi~=0.111.0
-python-dotenv~=1.0.1
+python-dotenv~=0.21.0
 google-generativeai
 torch~=2.3.0
 transformers~=4.41.1
 ipython~=8.24.0
-requests~=2.11.1
-Pyrebase~=3.0.27
+requests~=2.31.0
+pymongo~=4.7.2
+uvicorn~=0.30.0
